@@ -15,7 +15,7 @@ public:
 	string getTitle()const;
 	void setTitle(string Title);
 	string getAuthor()const;
-	void setAuthor();
+	void setAuthor(string author);
 	int getyear()const;
 	void setYear(int year);
 	float getPrice()const;

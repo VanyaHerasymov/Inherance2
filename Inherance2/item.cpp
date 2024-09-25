@@ -2,48 +2,66 @@
 
 Item::Item()
 {
+    title = "undefined";
+    author = "undefined";
+    year = 0;
+    price = 0;
 }
 
 Item::Item(string title, string author, int year, float price)
 {
+    this->title = title;
+    this->author = author;
+    this->year = year;
+    this->price = price;
+
 }
 
 string Item::getTitle() const
 {
-    return string();
+    return title;
 }
 
 void Item::setTitle(string Title)
 {
+    title = Title;
 }
 
 string Item::getAuthor() const
 {
-    return string();
+    return author;
 }
 
-void Item::setAuthor()
+void Item::setAuthor(string author)
 {
+    this->author = author;
 }
 
 int Item::getyear() const
 {
-    return 0;
+
+    return year;
 }
 
 void Item::setYear(int year)
 {
+    this->year = year;
 }
 
 float Item::getPrice() const
 {
-    return 0.0f;
+    return price;
 }
 
 void Item::setPrice(float Price)
 {
+    price = Price;
 }
 
 void Item::showInfo() const
 {
+    cout << "title:" << title<<endl;
+    cout << "author:" << author << endl;
+    cout << "year:" << year << endl;
+    cout << "price:" << price<<endl;
 }
