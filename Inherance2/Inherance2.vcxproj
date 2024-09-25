@@ -129,9 +129,14 @@
   <ItemGroup>
     <ClCompile Include="Inherance2.cpp" />
     <ClCompile Include="item.cpp" />
+    <ClCompile Include="MusicCD.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="item.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="MusicCD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
