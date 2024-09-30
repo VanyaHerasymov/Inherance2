@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{43be65e3-e1a6-4ea7-a159-9b99948f7a7e}</ProjectGuid>
-    <RootNamespace>Inherance2</RootNamespace>
+    <ProjectGuid>{137f14f3-2102-4018-8b25-f869b975fabc}</ProjectGuid>
+    <RootNamespace>InheranceHomeWork</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,16 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Inherance2.cpp" />
-    <ClCompile Include="item.cpp" />
-    <ClCompile Include="MusicCD.cpp" />
+    <ClCompile Include="ForeignPassport.cpp" />
+    <ClCompile Include="Inherance_HomeWork.cpp" />
+    <ClCompile Include="Passport.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="MusicCD.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClInclude Include="ForeignPassport.h" />
+    <ClInclude Include="Passport.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
